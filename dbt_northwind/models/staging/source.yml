@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: northwind
+    database: dbt_northwind  
+    schema: dbt_northwind  
+    tables:
+      - name: orders
+      - name: customers
+      - name: products
+      - name: suppliers
+      - name: employees
+      - name: shippers
+      - name: order_details
+      - name: categories
+
+  
